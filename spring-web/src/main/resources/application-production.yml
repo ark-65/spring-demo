@@ -1,0 +1,12 @@
+debug: false
+spring:
+  profiles: production
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://172.16.230.121:3306/demoTest?characterEncoding=UTF-8
+    username: root
+    password: Liuwu1211@
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none

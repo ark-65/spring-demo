@@ -45,3 +45,5 @@ test/
 *.cmd
 mvnw
 .mvn
+*.iml
+application.properties
