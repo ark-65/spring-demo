@@ -97,6 +97,11 @@
             <artifactId>spring-send-mail</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.ark</groupId>
+            <artifactId>spring-encryption</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

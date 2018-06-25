@@ -1,10 +1,6 @@
 package com.ark.demo.domain.user;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
+import javax.persistence.*;
 import java.util.Date;
 
 /**
@@ -18,7 +14,7 @@ import java.util.Date;
 public class UserInfo {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private String username;

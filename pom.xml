@@ -29,6 +29,7 @@
         <module>spring-login</module>
         <module>spring-register</module>
         <module>spring-send-mail</module>
+        <module>spring-encryption</module>
     </modules>
 
     <!--版本说明：这里统一管理依赖的版本号-->
